@@ -1,0 +1,248 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #bdd;
+   }
+
+.header{
+    background-color: #adc;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    max-width: 100%;
+    height: 7vh;
+}
+
+
+.Navegadorprincipal
+{
+    max-width: 100vh;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: #052;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 1.5rem;
+    border: 0.01rem solid #052;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #052;
+    
+}
+.logo
+{
+display:flex;
+left: auto;
+position: relative;
+}
+.logo > img{
+margin: 0rem;
+padding: 0rem;
+height: 4rem;
+width: auto;
+}
+
+.logo > h1
+{
+    font-family: kodemono, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #1aa;
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    padding-left: 0.5rem;
+   
+    
+    
+}
+
+
+
+.tituloinicio
+{
+text-align: center;
+background-color: #065a;
+color: #dee;
+height: 4vh;
+}
+
+
+div>h3
+{
+    background-color: #068;
+    color: #dee;
+    position: relative;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    
+ 
+
+}
+
+div>h3:hover{
+    transform: translate(3rem, 0rem);
+    padding-top: 1rem;
+    text-align: center;
+    height: 6vh;
+}
+
+.imagenparrafo
+{
+    display: flex;
+}
+
+div>img
+{
+    margin: 0rem;
+    padding: 0rem;
+    height: 9rem;
+    width: auto;
+    }
+
+hr{
+    border: 2px solid #072;
+    margin-left: 12vh;
+    margin-right: 12vh;
+}
+
+.galeriadelinicio{
+        display: flex;
+        width: 90vh;
+        height: 20rem;
+        margin-bottom: 5vh;
+        margin-left: 5vh;
+        padding: 5vh;
+    
+    }
+section>img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: 0.5s ease;
+    }
+section>img:hover
+    {
+        cursor: crosshair;
+        width: 20vh;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    .imagenparrafo
+    {
+        display: flex;
+        margin: 4rem;
+        width: 100vh;
+    
+        
+    }
+    .imagenparrafo img
+    {   
+        align-content: center;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        margin-right: 2vh;
+        margin-left: 12vh;
+        box-shadow: 1.2rem 1.2rem 1.2rem;
+        border-radius: 0.5rem;
+        width: 20vh;
+        height: auto;
+        transition: 0.5s ease;
+    }
+    
+    .imagenparrafo p
+    {
+        align-content: center;
+        width: 40vh;
+        height: 5vh;
+        margin-bottom: 10vh;
+
+    }
+
+    .imagenparrafo img:hover
+    {
+        
+        cursor: crosshair;
+        width: 30vh;
+        height: auto;
+        filter: contrast(120%);
+
+    }
+
+      
+    .cardcursos
+    { 
+        background-image: url(../resources/Images/cerezas.jpg);
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: contain;
+        margin: 10vh;
+        margin-left: 15vh;
+        padding: 15vh;
+        padding-top: 9vh;
+       
+
+     }
+
+     .cardcursost
+     {
+    
+        text-align: center;
+        font-family: kodemono, Arial, Helvetica, sans-serif;
+        color: white;
+        list-style-type: none;
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+        font-weight: 900;
+    
+        
+     }
+
+
+     .formulario {
+        max-width: 400px;
+        margin: 15vh;
+        padding: 5vh;
+        background: linear-gradient(to bottom,#044, #0659);
+        color: #fff;
+        border-radius: 2vh;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 2vh;
+    }
+    
+    button {
+        background-color: #044;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 2vh 3vh;
+        cursor: pointer;
+  }    
+
+  footer 
+  {
+    background-color: #044;
+    color: #fff;
+    padding: 3vh;
+    text-align: center;
+}
+
+footer a {
+    color: #adc;
+    text-decoration: none;
+    margin: 0 1vh;
+}
+.direccion {
+    font-style: italic;
+}

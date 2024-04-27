@@ -1,0 +1,27 @@
+@font-face
+{
+    font-family: "kodemono";
+src: url("./Kodemono/KodeMono-Regular.ttf") format("truetype");
+font-weight: 100;
+}
+
+font-face
+{
+    font-family: "kodemono";
+src: url("./Kodemono/KodeMono-Medium.ttf") format("truetype");
+font-weight: 400;
+}
+
+font-face
+{
+    font-family: "kodemono";
+src: url("./Kodemono/KodeMono-SemiBold.ttf") format("truetype");
+font-weight: 700;
+}
+
+font-face
+{
+    font-family: "kodemono";
+src: url("./Kodemono/KodeMono-Bold.ttf") format("truetype");
+font-weight: 900;
+}
