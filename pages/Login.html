@@ -15,8 +15,9 @@
     
     <link rel="stylesheet" href="../css/style.css">
 
-    <link rel="stylesheet" href="../css/fonts.css">   
-    
+    <link rel="stylesheet" href="../css/fonts.css">
+      
+    <script src="../js/login.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         </div>
         <div class="contenedornav">   
             <Nav class="navgeneral">   
-                            
+               
                        <a class="Navegadorprincipal" href="../index.html">Inicio</a>
    
                        <a class="Navegadorprincipal" href="./Queresaprender.html">Queres aprender? </a>
@@ -43,63 +44,35 @@
                        <a  class="Navegadorprincipal" href="./Register.html">Registrarse</a>
        
            </Nav>
-         </div>
+        </div>
     </header>
-<main>
-   
-                    <div class="tituloinicio">                
-                       <h2>Novedades</h2>                   
-                    </div>
-
-    <article>
-            <div class="Navegadornovedades">
-                    <div>
-                        <h3>Eventos</h3>
-                    </div>
-                   
-        <div class="imagenparrafo">
-                    <div>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio facilis eos praesentium, autem asperiores beatae, suscipit vitae, quaerat saepe nam deleniti? Suscipit, maiores ab? Facere, dicta in! Commodi, officiis.</P>
-                    </div>
-                    <div>
-                        <img src="../resources/Images/ditore.jpg" alt="arbolito">
-                    </div>
-            </div>
-        </div>
-    </article>
-
-<article>
-    <div class="Navegadornovedades">
-        <div>
-            <h3>Seminarios</h3>
-        </div>
-        <div class="imagenparrafo">
-          <div>
-             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio facilis eos praesentium, autem asperiores beatae, suscipit vitae, quaerat saepe nam deleniti? Suscipit, maiores ab? Facere, dicta in! Commodi, officiis.</P>
-           </div>
-           <div>
-            <img src="../resources/Images/kratos.jpg" alt="arbolito">
-        </div>
-    </div>
+  
 </div>
+ 
+<main>
     
-</article>
-    
-    <div class="Navegadornovedades">
-        <div>
-            <h3>Talleres</h3>
-        </div>
-        <div class="imagenparrafo">
-        <div>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio facilis eos praesentium, autem   asperiores beatae, suscipit vitae, quaerat saepe nam deleniti? Suscipit, maiores ab? Facere, dicta in! Commodi, officiis.</P>
-         </div>
-         <div>
-            <img src="../resources/Images/cerezas.jpg" alt="arbolito">
-        </div>
-    </div>..
+    <div class="tituloinicio">
+            <div>
+                <h2>Contacto</h2>
+            </div>
     </div>
 
-</main> 
+    <div class="formulario">
+        <h2>Ingresar</h2>
+        <form id="LoginForm">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="emailLogin" name="email" placeholder="Ingresa tu email" required>
+           
+            <label for="contraseñaLogin">Contraseña:</label>
+            <input type="password" id="contraseñaLogin" name="password" placeholder="Ingresa tu contraseña" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="errormenssajeLogin" class="errormenssaje"></p>
+    </div>
+
+</main>
 <footer>
     <h3>Contacto</h3>
     <p class="direccion">Coronel Osorio 2342, Lanus Oeste</p>

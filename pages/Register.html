@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="../css/style.css">
 
     <link rel="stylesheet" href="../css/fonts.css">   
-    
+
+    <script src="../js/register.js" defer></script>
 </head>
 
 <body>
@@ -38,56 +39,49 @@
    
                        <a class="Navegadorprincipal" href="./Agenda.html">Contacto</a>
 
-                       <a class="Navegadorprincipal" href="./Login.html" >Iniciar sesion</a>
+                      <a class="Navegadorprincipal" href="./Login.html" >Iniciar sesion</a>
 
                        <a  class="Navegadorprincipal" href="./Register.html">Registrarse</a>
-           </Nav>
-   </div>
-</header>
-
-<div class="tituloinicio">
-        <h2>Queres aprender?</h2>
-</div>
-    
-<article>
-    <div class="Navegadorqueresaprender">
-                <div>
-                    <h3>Tipo de cursos</h3>
-                </div>
-    <div>
        
-    </div>
-    <div >
-            
-            <div class="cardcursos">
-            <ul class="cardcursost">
-                <li>Porcelana</li>
-                <li>dibujo</li>
-                <li>pintura</li>
-                <li>hiperrealismo</li>
-            </ul>    
-         </div>
+           </Nav>
         </div>
+    </header>
+  
+ 
+<main>
+    
+    <div class="tituloinicio">
+            <div>
+                <h2>Contacto</h2>
+            </div>
     </div>
-</article>
 
+    <div class="formulario">
+        <h2>Registrarse</h2>
+        <form id="RegisterForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
 
-<article>
-        <div class="Navegadorqueresaprender">
-                <div>
-                    <h3>Aranceles</h3>
-                </div> 
-                <div class="imagenparrafo">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta error soluta ipsam maxime et ipsa, perferendis voluptatem ab laborum repellat eveniet deserunt quidem fuga aliquam cum est, eos dolore? </p>
-                </div>
-                <div>
-                    <img src="../resources/Images/2ln2lpd6.png" alt="arbolito">
-                </div>
-            </div>   
-        </div>   
-</article>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu nombre" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+
+            <label for="contraseña">Password:</label>
+            <input type="password" id="contraseña" name="password" placeholder="Ingresa tu contraseña" required>
+            
+            <label for="repetircontraseña">Repetir Contraseña</label>
+            <input type="password" id="repetircontraseña" name="repetircontraseña" placeholder="Ingresa tu contraseña nuevamente" required>
+          
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="errormenssaje" class="errormenssaje"></p>
+    </div>
+
+    
+ 
+</main>
 <footer>
     <h3>Contacto</h3>
     <p class="direccion">Coronel Osorio 2342, Lanus Oeste</p>
@@ -95,8 +89,8 @@
     <p>Email: <a href="patryarte@tallerarte.com">info@tallerarte.com</a></p>
     <p>Síguenos en redes sociales: <a href="https://www.facebook.com/Taller/">Facebook</a>, <a href="https://www.instagram.com/tallerarte/">Instagram</a></p>
 </footer>
-
 </body>
+
 
 
 </html>
