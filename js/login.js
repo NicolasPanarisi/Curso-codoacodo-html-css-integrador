@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', ()=>{
 
     const Form=document.querySelector('#LoginForm');
+
     const errorMenssaje=document.querySelector('#errormenssajeLogin');
 
 Form.addEventListener('submit', (evento)=>{
     evento.preventDefault();
-    const email = document.querySelector("#emailLogin").value;
-    const password = document.querySelector("#contraseñaLogin").value;
+
+    //const email = document.querySelector("#emailLogin").value;
+    //const password = document.querySelector("#contraseñaLogin").value;
     
 
     if(email.length <= 3){
@@ -19,5 +21,6 @@ Form.addEventListener('submit', (evento)=>{
     document.querySelector("#errormenssajeLogin").textContent = "La contraseña debe ser mayor a 3 caracteres.";
     return;     
 }
+
 })                                          
 })
